@@ -1,2 +1,0 @@
-# Pepper-chicken
-Online restaurant 
