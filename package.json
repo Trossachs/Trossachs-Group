@@ -1,0 +1,16 @@
+{
+  "name": "trossachs-group",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Trossachs Group portfolio with admin CMS. Runs on Vercel (Upstash Redis + Vercel Blob) or locally with plain files.",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node server/test.js",
+    "reset-admin": "node server/reset-admin.js"
+  },
+  "dependencies": {
+    "@vercel/blob": ">=1.0.0"
+  }
+}
